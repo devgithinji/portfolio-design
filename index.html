@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dennis Githinji</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<!--header-->
+<header class="header" data-header>
+    <div class="container">
+        <a href="#" class="logo">
+            Dennis.
+        </a>
+        <nav class="navbar" data-navbar>
+            <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+            </button>
+            <ul class="navbar-list">
+                <li>
+                    <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+                </li>
+                <li>
+                    <a href="#aboutme" class="navbar-link" data-nav-link>About Me</a>
+                </li>
+                <li>
+                    <a href="#services" class="navbar-link" data-nav-link>Services</a>
+                </li>
+                <li>
+                    <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
+                </li>
+                <li>
+                    <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                </li>
+                <li>
+                    <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="#" class="btn btn-secondary">
+            Hire Me
+            <ion-icon name="arrow-round-forward"></ion-icon>
+        </a>
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+    </div>
+</header>
+<main>
+    <!--hero-->
+    <section class="section hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hello I'm <br> Dennis Githinji
+                </h1>
+                <p class="hero-subtitle">Fullstack Software Engineer</p>
+                <a href="#" class="btn btn-accent">
+                    Download Resume
+                    <ion-icon name="download"></ion-icon>
+                </a>
+                <div class="social-icons">
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-banner">
+                <img src="./assets/images/hero-banner.png" alt="hero banner" class="img">
+            </div>
+        </div>
+    </section>
+    <!--about me-->
+    <section id="aboutme">
+        <div class="tabs">
+            <div class="tab-link active person" onclick="openTab(event,'person')">
+                <div class="tab-link-content">
+                    <div class="social-link">
+                        <ion-icon name="person"></ion-icon>
+                    </div>
+                    <span class="tab-label">About Me</span>
+                </div>
+                <div class="tab-link-underline"></div>
+            </div>
+            <div class="tab-link school" onclick="openTab(event,'school')">
+                <div class="tab-link-content">
+                    <div class="social-link">
+                        <ion-icon name="school"></ion-icon>
+                    </div>
+                    <span class="tab-label">Education</span>
+                </div>
+                <div class="tab-link-underline"></div>
+            </div>
+            <div class="tab-link work" onclick="openTab(event,'work')">
+                <div class="tab-link-content">
+                    <div class="social-link">
+                        <ion-icon name="briefcase"></ion-icon>
+                    </div>
+                    <span class="tab-label">Job History</span>
+                </div>
+                <div class="tab-link-underline"></div>
+            </div>
+        </div>
+        <div class="section tab-content active about-me" id="person">
+            <div class="container">
+                <div class="about-me-banner">
+                    <img src="./assets/images/abt-me.png" class="img" alt="dennis githinji">
+                </div>
+                <div class="about-me-content">
+                    <h2 class="sub-title">About Me</h2>
+                    <h1 class="title">I'm Dennis Githinji</h1>
+                    <p class="section-text">
+                        A modern Software Developer, holding a B.Sc. in Software Engineering, with more than 3 years of
+                        hands-on extensive experience in web and mobile applications' development, adept in bringing
+                        forth expertise in design, development, installation and maintenance of software.
+                    </p>
+                    <h2 class="card-title">Skills</h2>
+                    <ul class="skills-list">
+                        <li>
+                            <span>Backend</span>: Java (Spring boot), node js (express js , nest js)
+                        </li>
+                        <li>
+                            <span>Frontend</span>: React js (Next js), Vue js
+                        </li>
+                        <li>
+                            <span>Databases</span>: Relational (MySQL, PostgreSQL), Non-relational(mongo db)
+                        </li>
+                        <li>
+                            <span>Additional skills</span>: Microservices, Cloud services (AWS)
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-accent">
+                        Download Resume
+                        <ion-icon name="download"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="section tab-content education" id="school">
+            <div class="container">
+                <div class="title-section">
+                    <h2 class="sub-title">Education</h2>
+                    <h1 class="title">My Schooling Journey</h1>
+                </div>
+                <div class="education-list">
+                    <div class="display-item">
+                        <div class="label">
+                            University
+                            <span>2016 - 2020</span>
+                        </div>
+                        <div class="info">
+                            <h4 class="card-title">Kisii University</h4>
+                            <p>B.Sc. Software Engineering</p>
+                            <p class="score">2nd Class Upper Division</p>
+                        </div>
+                    </div>
+                    <div class="display-item">
+                        <div class="label">
+                            High School
+                            <span>2012 - 2015</span>
+                        </div>
+                        <div class="info">
+                            <h4 class="card-title">Meru School</h4>
+                            <p>Kenya Certificate of Secondary Education (K.C.S.E)</p>
+                            <p class="score">A- Mean grade (75/84) points</p>
+                        </div>
+                    </div>
+                    <div class="display-item">
+                        <div class="label">
+                            Primary School
+                            <span>2004 - 2011</span>
+                        </div>
+                        <div class="info">
+                            <h4 class="card-title">Limuru Town Pri School</h4>
+                            <p>Kenya Certificate of Primary Education (K.C.P.E)</p>
+                            <p class="score">395/500 points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section tab-content work" id="work">
+            <div class="container">
+                <div class="title-section">
+                    <h2 class="sub-title">Work</h2>
+                    <h1 class="title">My Job History</h1>
+                </div>
+                <div class="work-list">
+                    <div class="display-item">
+                        <div class="label">
+                            Dec 2021 - Aug 2022
+                        </div>
+                        <div class="info">
+                            <h4 class="card-title">Cytonn Investments</h4>
+                            <h5 class="card-sub-title">Software Developer</h5>
+                            <p>
+                                I was enrolled in the Cytonn technologies team for a full stack development
+                                internship
+                                position
+                                which involved more of training to familiarize with the tech stack and development
+                                practices used
+                                in the team
+                            </p>
+                            <h5 class="card-sub-title">Responsibilities</h5>
+                            <ul class="skills-list">
+                                <li>Design of landing pages used in the real estate systems</li>
+                                <li>Maintenance of the Investments web application</li>
+                                <li>Participation in the daily team meetings</li>
+                                <li>Conducting code peer reviews with my team members</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="display-item">
+                        <div class="label">
+                            <span>May 2019 - Sep 2019</span>
+                        </div>
+                        <div class="info">
+                            <h4 class="card-title">Techchimp Solutions</h4>
+                            <h5 class="card-sub-title">Internship</h5>
+                            <p>
+                                I was enrolled in the Techchimp solutions team where i was actively involved more in
+                                mobile
+                                applications development
+                            </p>
+                            <h5 class="card-sub-title">Responsibilities</h5>
+                            <ul class="skills-list">
+                                <li>
+                                    Design and Development of a mobile application for an Antenna monitor project
+                                    using
+                                    the
+                                    native Java
+                                </li>
+                                <li>Documentation of the applications that were in active development by the team
+                                </li>
+                                <li>Participation in the daily team meetings</li>
+                                <li>Support of the existing systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--services-->
+    <section class="section services" id="services">
+        <div class="container">
+            <h2 class="sub-title">Services</h2>
+            <h1 class="title">What I do best</h1>
+            <div class="services-list">
+                <div class="service">
+                    <div class="service-icon">
+                        <ion-icon name="globe"></ion-icon>
+                    </div>
+                    <h3 class="card-title">Web development</h3>
+                    <p>Development, Design, maintaining and upgrading of all custom websites to high-end web
+                        applications using the latest technologies </p>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <ion-icon name="phone-portrait"></ion-icon>
+                    </div>
+                    <h3 class="card-title">Mobile App Development</h3>
+                    <p>Development of all kinds of mobile applications from hybrid, native and cross-platform
+                        applications</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <ion-icon name="help"></ion-icon>
+                    </div>
+                    <h3 class="card-title">IT Consulting</h3>
+                    <p>General enquiries pertaining architectural design, development, maintenance, deployment or
+                        procurement of software</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--projects-->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="sub-title">Projects</h2>
+            <h1 class="title">Have a feel of what i do</h1>
+            <div class="projects-list">
+                <div class="project">
+                    <img src="./assets/images/project-one.png" class="img" alt="project one">
+                    <div class="project-info">
+                        <h3 class="card-title">Barber Shop</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet, corporis debitis dicta
+                            ipsum
+                            nam nihil nisi quo reprehenderit sit.</p>
+                        <div class="project-btns">
+                            <div class="project-btn">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </div>
+                            <div class="project-btn outline">
+                                <ion-icon name="link"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./assets/images/project-two.png" class="img" alt="project two">
+                    <div class="project-info">
+                        <h3 class="card-title">Agency Website</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet, corporis debitis dicta
+                            ipsum
+                            nam nihil nisi quo reprehenderit sit.</p>
+                        <div class="project-btns">
+                            <div class="project-btn">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </div>
+                            <div class="project-btn outline">
+                                <ion-icon name="link"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./assets/images/project-three.png" class="img" alt="project three">
+                    <div class="project-info">
+                        <h3 class="card-title">Fitlife Gym Website</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet, corporis debitis dicta
+                            ipsum
+                            nam nihil nisi quo reprehenderit sit.</p>
+                        <div class="project-btns">
+                            <div class="project-btn">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </div>
+                            <div class="project-btn outline">
+                                <ion-icon name="link"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-accent">
+                View All
+                <ion-icon name="arrow-forward"></ion-icon>
+            </a>
+        </div>
+    </section>
+    <!--blog-->
+    <section class="section blogs" id="blogs">
+        <div class="container">
+            <h2 class="sub-title">Blog</h2>
+            <h1 class="title">Let's Get techy</h1>
+            <div class="blog-list">
+                <div class="blog">
+                    <div class="blog-img">
+                        <img src="./assets/images/blog-one.png" class="img" alt="blog one">
+                        <div class="img-overlay"></div>
+                        <div class="blog-icon">
+                            <ion-icon name="link"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="card-title">Java Microservices</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque commodi dolores.</p>
+                        <a href="#" class="card-sub-title">Read More</a>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog-img">
+                        <img src="./assets/images/blog-two.png" class="img" alt="blog two">
+                        <div class="img-overlay"></div>
+                        <div class="blog-icon">
+                            <ion-icon name="link"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="card-title">Next Js</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque commodi dolores.</p>
+                        <a href="#" class="card-sub-title">Read More</a>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog-img">
+                        <img src="./assets/images/blog-three.png" class="img" alt="blog three">
+                        <div class="img-overlay"></div>
+                        <div class="blog-icon">
+                            <ion-icon name="link"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="card-title">Angular Templates</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque commodi dolores,
+                            eveniet.</p>
+                        <a href="#" class="card-sub-title">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-accent">
+                View All
+                <ion-icon name="arrow-forward"></ion-icon>
+            </a>
+        </div>
+    </section>
+    <!--contact-->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="sub-title">Contact Me</h2>
+            <h1 class="title">Let's Get Talking</h1>
+            <div class="contact-content">
+                <div class="contact-details">
+                    <ul>
+                        <li class="contact-item">
+                            <ion-icon name="mail"></ion-icon>
+                            <span>Email:</span>
+                            <a href="mailto:wakahiad@gmail.com">wakahiad@gmail.com</a>
+                        </li>
+                        <li class="contact-item">
+                            <ion-icon name="call"></ion-icon>
+                            <span>Mobile:</span>
+                            <a href="tel:+254799566927">+254 799 566 927</a>
+                        </li>
+                        <li class="contact-item">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                            <span>Whatsapp:</span>
+                            <a href="https://api.WhatsApp.com/send?+254799566927">+254 799 566 927</a>
+                        </li>
+                        <li class="contact-item">
+                            <ion-icon name="pin"></ion-icon>
+                            <span>Location:</span>
+                            <a href="https://www.google.com/maps/search/?api=1&query=nairobi+kenya">Nairobi, Kenya</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <div class="form-item">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-input" name="name" id="name" placeholder="Enter Name">
+                        </div>
+                        <div class="form-item">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-input" name="name" id="email" placeholder="Enter Email">
+                        </div>
+                        <div class="form-item">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-textarea" placeholder="Enter Message"></textarea>
+                        </div>
+                        <button class="btn btn-accent">
+                            Submit
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="section footer">
+    <div class="container">
+        <div class="social-icons">
+            <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="#" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </div>
+        <p>Copyright &copy; 2022</p>
+        <span>Built By Dennis</span>
+    </div>
+</footer>
+
+<!--custom js -->
+<script src="./assets/js/script.js"></script>
+<!--ion icon-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
