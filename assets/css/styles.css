@@ -859,5 +859,28 @@ ul.skills-list li span {
     font-size: var(--fs-4);
 }
 
+/*-----------------------------------*\
+  #footer
+\*-----------------------------------*/
+.back-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    background-color: var(--accent);
+    color: var(--primary-900);
+    font-size: 20px;
+    padding: 11px;
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition);
+    z-index: 4;
+}
+
+.back-top-btn.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-10px);
+}
 
 
