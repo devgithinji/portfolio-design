@@ -21,10 +21,17 @@ const toggleNavbar = function () {
 
 addEventOnElement(navTogglers, "click", toggleNavbar)
 
+const closeNav = function () {
+    navbar.classList.remove("active")
+}
+
+addEventOnElement(navLinks, "click", closeNav)
+
 //back to top
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]")
 
+//header active
 window.addEventListener("scroll", function () {
     if (window.scrollY >= 100) {
         header.classList.add("active");

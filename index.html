@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dennis Githinji</title>
+    <meta name="description" content="Dennis Githinji Software Developer Portfolio">
+    <meta name="keywords" content="Dennis, Githinji, Software Engineer, Java, JavaScript, React, Node Js">
+    <meta name="author" content="Dennis Githinji">
+    <title>Dennis Githinji | Portfolio</title>
+    <!--custom css-->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!--preload images-->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="./assets/images/abt-me.png">
+    <link rel="preload" as="image" href="./assets/images/project-one.png">
+    <link rel="preload" as="image" href="./assets/images/project-two.png">
+    <link rel="preload" as="image" href="./assets/images/project-three.png">
+    <link rel="preload" as="image" href="./assets/images/blog-one.png">
+    <link rel="preload" as="image" href="./assets/images/blog-two.png">
+    <link rel="preload" as="image" href="./assets/images/blog-three.png">
+
 </head>
 <body id="top">
 <!--header-->
@@ -39,9 +56,9 @@
                 </li>
             </ul>
         </nav>
-        <a href="#" class="btn btn-secondary">
+        <a href="#contact" class="btn btn-accent">
             Hire Me
-            <ion-icon name="arrow-round-forward"></ion-icon>
+            <ion-icon name="arrow-forward"></ion-icon>
         </a>
         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
             <span class="line"></span>
@@ -260,30 +277,30 @@
             <h2 class="sub-title">Services</h2>
             <h1 class="title">What I do best</h1>
             <div class="services-list">
-                <div class="service">
+                <a href="#" class="service">
                     <div class="service-icon">
                         <ion-icon name="globe"></ion-icon>
                     </div>
                     <h3 class="card-title">Web development</h3>
                     <p>Development, Design, maintaining and upgrading of all custom websites to high-end web
                         applications using the latest technologies </p>
-                </div>
-                <div class="service">
+                </a>
+                <a href="#" class="service">
                     <div class="service-icon">
                         <ion-icon name="phone-portrait"></ion-icon>
                     </div>
                     <h3 class="card-title">Mobile App Development</h3>
                     <p>Development of all kinds of mobile applications from hybrid, native and cross-platform
                         applications</p>
-                </div>
-                <div class="service">
+                </a>
+                <a href="#" class="service">
                     <div class="service-icon">
                         <ion-icon name="help"></ion-icon>
                     </div>
                     <h3 class="card-title">IT Consulting</h3>
                     <p>General enquiries pertaining architectural design, development, maintenance, deployment or
                         procurement of software</p>
-                </div>
+                </a>
             </div>
 
         </div>
@@ -361,10 +378,7 @@
                 <div class="blog">
                     <div class="blog-img">
                         <img src="./assets/images/blog-one.png" class="img" alt="blog one">
-                        <div class="img-overlay"></div>
-                        <div class="blog-icon">
-                            <ion-icon name="link"></ion-icon>
-                        </div>
+                        <div class="date-posted">24th Jun 2022</div>
                     </div>
                     <div class="blog-content">
                         <h3 class="card-title">Java Microservices</h3>
@@ -375,10 +389,7 @@
                 <div class="blog">
                     <div class="blog-img">
                         <img src="./assets/images/blog-two.png" class="img" alt="blog two">
-                        <div class="img-overlay"></div>
-                        <div class="blog-icon">
-                            <ion-icon name="link"></ion-icon>
-                        </div>
+                        <div class="date-posted">3rd Mar 2022</div>
                     </div>
                     <div class="blog-content">
                         <h3 class="card-title">Next Js</h3>
@@ -389,10 +400,7 @@
                 <div class="blog">
                     <div class="blog-img">
                         <img src="./assets/images/blog-three.png" class="img" alt="blog three">
-                        <div class="img-overlay"></div>
-                        <div class="blog-icon">
-                            <ion-icon name="link"></ion-icon>
-                        </div>
+                        <div class="date-posted">7th Jun 2022</div>
                     </div>
                     <div class="blog-content">
                         <h3 class="card-title">Angular Templates</h3>
@@ -429,12 +437,13 @@
                         <li class="contact-item">
                             <ion-icon name="logo-whatsapp"></ion-icon>
                             <span>Whatsapp:</span>
-                            <a href="https://api.WhatsApp.com/send?+254799566927">+254 799 566 927</a>
+                            <a href="https://wa.me/0799566927" target="_blank">+254 799 566 927</a>
                         </li>
                         <li class="contact-item">
                             <ion-icon name="pin"></ion-icon>
                             <span>Location:</span>
-                            <a href="https://www.google.com/maps/search/?api=1&query=nairobi+kenya">Nairobi, Kenya</a>
+                            <a href="https://www.google.com/maps/search/?api=1&query=nairobi+kenya" target="_blank">Nairobi,
+                                Kenya</a>
                         </li>
                     </ul>
                 </div>
@@ -479,8 +488,11 @@
                 <ion-icon name="logo-github"></ion-icon>
             </a>
         </div>
-        <p>Copyright &copy; 2022</p>
-        <span>Built By Dennis</span>
+        <div class="copyright-text">
+            <p>Copyright &copy; 2022</p>
+            <span class="divider">|</span>
+            <span>Built By Dennis</span>
+        </div>
     </div>
 </footer>
 
