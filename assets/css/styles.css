@@ -625,10 +625,10 @@ ul.skills-list li span {
     cursor: pointer;
 }
 
-.project .img {
-    border-top-left-radius: var(--radius-30);
-    border-top-right-radius: var(--radius-30);
-}
+/*.project .img {*/
+/*    border-top-left-radius: var(--radius-30);*/
+/*    border-top-right-radius: var(--radius-30);*/
+/*}*/
 
 .project-info {
     padding: 15px;
